@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posture Keeper - Support</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #e0f2f1 0%, #e8f5e9 50%, #f1f8e9 100%);
+      color: #424242;
+      min-height: 100vh;
+      line-height: 1.8;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .header h1 {
+      font-size: 28px;
+      color: #2E7D6F;
+      margin-bottom: 8px;
+    }
+    .header p {
+      font-size: 14px;
+      color: #888;
+    }
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 16px;
+    }
+    .lang-switch a {
+      color: #2E7D6F;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .lang-switch a:hover { text-decoration: underline; }
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    }
+    .card h2 {
+      font-size: 18px;
+      color: #2E7D6F;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e0f2f1;
+    }
+    .faq-item { margin-bottom: 20px; }
+    .faq-item:last-child { margin-bottom: 0; }
+    .faq-q {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 4px;
+    }
+    .faq-q::before {
+      content: "Q. ";
+      color: #2E7D6F;
+    }
+    .faq-a { padding-left: 24px; font-size: 14px; }
+    .faq-a::before {
+      content: "A. ";
+      color: #1B5E50;
+      font-weight: bold;
+      margin-left: -24px;
+    }
+    .contact-email {
+      display: inline-block;
+      background: #e0f2f1;
+      color: #2E7D6F;
+      padding: 8px 20px;
+      border-radius: 24px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 8px;
+    }
+    .contact-email:hover {
+      background: #b2dfdb;
+    }
+    .links {
+      text-align: center;
+      margin-top: 16px;
+    }
+    .links a {
+      color: #2E7D6F;
+      text-decoration: none;
+      margin: 0 12px;
+      font-size: 14px;
+    }
+    .links a:hover { text-decoration: underline; }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 12px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="lang-switch">
+      <a href="../">日本語</a>
+    </div>
+
+    <div class="header">
+      <h1>Posture Keeper</h1>
+      <p>Improve Your Posture with Regular Reminders</p>
+    </div>
+
+    <div class="card">
+      <h2>About the App</h2>
+      <p>
+        Posture Keeper is a health care app that helps you improve
+        your posture through regular notification reminders.
+        With customizable notification schedules and posture
+        improvement tracking, it helps you build a daily habit
+        of better posture.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <p class="faq-q">I'm not receiving notifications</p>
+        <p class="faq-a">
+          Please check that notifications are enabled for this app
+          in your device settings. Power saving mode or battery
+          optimization may also delay or stop notifications.
+          Try reconfiguring the notification schedule in the
+          app settings.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">How do I change the notification interval?</p>
+        <p class="faq-a">
+          You can freely customize the notification interval and
+          time range from the Settings screen. Set it to match
+          your daily routine, such as work hours or sleep time.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">How can I remove ads?</p>
+        <p class="faq-a">
+          You can remove ads through an in-app purchase.
+          This option is available in the Settings screen.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">How do I restore my purchase?</p>
+        <p class="faq-a">
+          Tap the "Restore Purchases" button on the Settings screen.
+          Your previous purchase will be restored as long as you are
+          signed in with the same Apple ID or Google account.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">What devices and OS versions are supported?</p>
+        <p class="faq-a">
+          iOS 16 or later / Android 5.0 or later.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions, feature requests, or bug reports,
+        please feel free to contact us at the email address below.
+      </p>
+      <p style="text-align: center; margin-top: 12px;">
+        <a class="contact-email" href="mailto:develop@alternative.ne.jp">
+          develop@alternative.ne.jp
+        </a>
+      </p>
+    </div>
+
+    <div class="links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2025 Posture Keeper. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
